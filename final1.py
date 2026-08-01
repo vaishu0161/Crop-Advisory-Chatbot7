@@ -4,6 +4,14 @@ from weather import get_weather
 from rules2 import get_tomorrow_alert
 from groq import Groq
 
+
+def load_css():
+    with open("style.css") as f:
+        st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
+
+load_css()
+
+
 try:
     client = Groq(api_key=st.secrets["GROQ_API_KEY"])
 except Exception:

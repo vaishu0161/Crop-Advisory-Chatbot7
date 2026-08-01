@@ -1,0 +1,67 @@
+/* Background */
+.stApp {
+    background: linear-gradient(to right, #eef8ee, #ffffff);
+}
+
+/* Main title */
+h1 {
+    color: #2E7D32;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Sub headings */
+h2, h3 {
+    color: #1B5E20;
+}
+
+/* Buttons */
+.stButton > button {
+    background-color: #2E7D32;
+    color: white;
+    border-radius: 12px;
+    border: none;
+    height: 50px;
+    width: 100%;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.stButton > button:hover {
+    background-color: #1B5E20;
+}
+
+/* Text Input */
+.stTextInput input {
+    border-radius: 12px;
+    border: 2px solid #4CAF50;
+}
+
+/* Selectbox */
+.stSelectbox {
+    border-radius: 12px;
+}
+
+/* Metric Cards */
+[data-testid="stMetric"] {
+    background: white;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 0px 3px 8px rgba(0,0,0,0.15);
+}
+
+/* Chat */
+[data-testid="stChatMessage"] {
+    border-radius: 15px;
+    padding: 12px;
+}
+
+/* Sidebar */
+section[data-testid="stSidebar"] {
+    background: #E8F5E9;
+}
+
+/* Footer */
+footer {
+    visibility: hidden;
+}
